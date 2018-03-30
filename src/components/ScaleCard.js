@@ -8,7 +8,6 @@ class VisitCard extends Component {
     }
 
     render() {
-        console.log(this.props.scale);
         return (
             <TouchableOpacity onPress={this.onRowPress.bind(this)}>
                 <View>
