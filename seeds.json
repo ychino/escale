@@ -1,0 +1,93 @@
+[
+    {
+        "StudyID": "S1",
+        "Visits": [
+            {
+                "VisitID": "V1",
+                "Name": "Visit 1",
+                "Scales": [
+                    {
+                        "ScaleID": "SA",
+                        "Name": "Scale A",
+                        "ScaleItems": [
+                            {
+                                "ScaleItemID": "SI1",
+                                "Name": "Question 1",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q1",
+                                        "QuestionText": "How are you today?",
+                                        "QuestionAnswers": [ "Good", "Bad" ]
+                                    }
+                                ]
+                            },
+                            {
+                                "ScaleItemID": "SI2",
+                                "Name": "Question 2",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q2",
+                                        "QuestionText": "Do you speak English?",
+                                        "QuestionAnswers": [ "Yes", "No" ]
+                                    }
+                                ]
+                            },
+                            {
+                                "ScaleItemID": "SI3",
+                                "Name": "Question 3",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q3",
+                                        "QuestionText": "Which do you like?",
+                                        "QuestionAnswers": [ "Jazz", "Rock", "Techno" ]
+                                    }
+                                ]
+                            } ]
+                    }]
+            },
+            {
+                "VisitID": "V2",
+                "Name": "Visit 2",
+                "Scales": [
+                    {
+                        "ScaleID": "SB",
+                        "Name": "Scale B",
+                        "ScaleItems": [
+                            {
+                                "ScaleItemID": "S1",
+                                "Name": "Question 1",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q1",
+                                        "QuestionText": "This is scale B. Are you ready?",
+                                        "QuestionAnswers": [ "Yes", "No" ]
+                                    }
+                                ]
+                            },
+                            {
+                                "ScaleItemID": "SI2",
+                                "Name": "Question 2",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q2",
+                                        "QuestionText": "Do you like sports?",
+                                        "QuestionAnswers": [ "Yes", "No" ]
+                                    }
+                                ]
+                            },
+                            {
+                                "ScaleItemID": "SI3",
+                                "Name": "Question 3",
+                                "Questions": [  
+                                    {     
+                                        "QuestionID": "Q3",
+                                        "QuestionText": "Which do you like most?",
+                                        "QuestionAnswers": [ "Soccer", "Baseball", "Bascketball", "Tennis" ]
+                                    }
+                                ]
+                            }]
+                    }]
+            }
+        ]
+    }
+]
